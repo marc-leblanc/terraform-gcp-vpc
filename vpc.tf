@@ -9,6 +9,9 @@ output "VPC_Name" {
     value = google_compute_network.vpc_network.name
 }
 
-output "VPC_Description" { 
-    value = google_compute_network.vpc_network.gcp_vpc_description
+output "VPC_Self_link" {
+    value = google_compute_network.vpc_network.self_link
 }
+#output "VPC_Description" { 
+#    value = google_compute_network.vpc_network.gcp_vpc_description
+#}
