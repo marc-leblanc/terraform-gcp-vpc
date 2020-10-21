@@ -19,5 +19,8 @@ No requirements.
 
 ## Outputs
 
-No output.
+| Name | Description |
+|------|-------------|
+| VPC\_Description | n/a |
+| VPC\_Name | n/a |
 
