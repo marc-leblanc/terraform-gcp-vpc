@@ -15,3 +15,5 @@ variable "auto_snets" {
     description = "Auto Create Subnets. If false, custom mode is applied"
     default = true
 }
+
+variable "gcp_project" {}
